@@ -19,9 +19,6 @@ import javax.validation.Valid;
  */
 @Controller
 public class ProductController {
-
-    private String name;
-
     private ProductService productService;
 
     private ProductToProductForm productToProductForm;
@@ -85,5 +82,5 @@ public class ProductController {
         productService.delete(id);
         return "redirect:/product/list";
     }
-
+    System.out.println("Lets make some modificationhere keshav")
 }

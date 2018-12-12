@@ -16,6 +16,7 @@ public class Product {
     private String description;
     private BigDecimal price;
     private String imageUrl;
+    private String changeinproduct;
 
     public ObjectId getId() {
         return _id;
