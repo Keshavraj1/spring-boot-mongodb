@@ -82,5 +82,5 @@ public class ProductController {
         productService.delete(id);
         return "redirect:/product/list";
     }
-    System.out.println("Lets make some modificationhere keshav")
+
 }
