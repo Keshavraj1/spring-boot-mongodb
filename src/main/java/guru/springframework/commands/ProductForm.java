@@ -12,6 +12,7 @@ public class ProductForm {
     private String description;
     private BigDecimal price;
     private String imageUrl;
+    private String addAgian;
 
     public String getId() {
         return id;
