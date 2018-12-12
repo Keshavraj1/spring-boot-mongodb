@@ -13,7 +13,7 @@ public class ProductForm {
     private BigDecimal price;
     private String imageUrl;
     private String addAgian;
-    String nothing;
+
 
     public String getId() {
         return id;
